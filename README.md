@@ -1,9 +1,5 @@
 # 🚀 Matheus Filipe — Personal Portfolio
 
-Portfólio pessoal com temática de desenvolvimento **Backend em Python**, projetado para ser hospedado no **GitHub Pages**.
-
-![Matheus Filipe Portfolio](assets/images/project_meu_horario.png)
-
 ## 📌 Sobre o Perfil
 
 - 🎓 **Formação**: Cursando Ciência da Computação na UTFPR
@@ -35,25 +31,6 @@ Portfólio pessoal com temática de desenvolvimento **Backend em Python**, proje
 
 - **MeuHorário** ([Repositório](https://github.com/MatheusFilipe/MeuHorario)): API REST para cadastro de clientes, serviços, horários disponíveis, marcação e cancelamento de agendamentos.
 - **FlowOps** ([Repositório](https://github.com/MatheusFilipe/FlowOps)): Sistema capaz de automatizar operações administrativas e operacionais de pequenos negócios locais.
-
----
-
-## 💻 Como Publicar no GitHub Pages
-
-Para publicar ou atualizar seu portfólio no GitHub Pages (`https://MatheusFilipe.github.io` ou `https://MatheusFilipe.github.io/portfolio`):
-
-1. **Faça Commit e Push do código**:
-   ```bash
-   git add .
-   git commit -m "feat: refine portfolio focus, skills presentation and project FlowOps"
-   git push origin main
-   ```
-
-2. **Ative o GitHub Pages**:
-   - Vá no repositório no GitHub: `https://github.com/MatheusFilipe/portfolio`
-   - Acesse **Settings** > **Pages**.
-   - Em **Source**, selecione a branch `main` e a pasta `/ (root)`.
-   - Clique em **Save**.
 
 ---
 
