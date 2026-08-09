@@ -877,7 +877,14 @@ img {
   }
   
   .hero-facts-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.75rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-facts-grid {
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
@@ -886,9 +893,25 @@ img {
     display: none; /* simple clean responsive fallback */
   }
 
+  .hero {
+    padding-top: calc(var(--header-height) + 2rem);
+    padding-bottom: 3.5rem;
+  }
+
   .hero-profile {
     flex-direction: column;
     text-align: center;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .avatar-wrapper {
+    width: 90px;
+    height: 90px;
+  }
+
+  .profile-meta h1 {
+    font-size: 1.85rem;
   }
 
   .role-badge {
@@ -897,10 +920,56 @@ img {
 
   .hero-headline {
     text-align: center;
+    font-size: 1.05rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .hero-facts-grid {
+    grid-template-columns: 1fr;
+    gap: 0.75rem;
+  }
+
+  .fact-card {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: auto auto;
+    column-gap: 1rem;
+    row-gap: 0.15rem;
+    align-items: center;
+    padding: 0.85rem 1.15rem;
+    text-align: left;
+  }
+
+  .fact-card-icon {
+    grid-row: 1 / span 2;
+    grid-column: 1;
+    margin-bottom: 0;
+    font-size: 1.6rem;
+  }
+
+  .fact-card-title {
+    grid-row: 1;
+    grid-column: 2;
+    margin-bottom: 0;
+  }
+
+  .fact-card-desc {
+    grid-row: 2;
+    grid-column: 2;
   }
 
   .hero-ctas {
     justify-content: center;
+  }
+
+  .terminal-header {
+    padding: 0.6rem 0.8rem;
+  }
+
+  .terminal-body {
+    font-size: 0.76rem;
+    padding: 1rem;
+    line-height: 1.6;
   }
 
   .projects-grid {
@@ -909,5 +978,17 @@ img {
 
   .section-title {
     font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-ctas {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .hero-ctas .btn {
+    width: 100%;
+    justify-content: center;
   }
 }

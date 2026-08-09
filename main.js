@@ -92,18 +92,18 @@ const codeSnippets = {
     <span class="code-keyword">def</span> <span class="code-property">__init__</span>(self):
         self.name = <span class="code-string">"Matheus Filipe"</span>
         self.role = <span class="code-string">"Desenvolvedor Backend (Júnior em formação)"</span>
-        self.education = <span class="code-string">"Ciência da Computação @ UTFPR"</span>
+        self.education = <span class="code-string">"Ciência da Computação @ UFU"</span>
         self.primary_language = <span class="code-string">"Python"</span>
-        self.languages_spoken = [<span class="code-string">"Português"</span>, <span class="code-string">"Inglês Fluente"</span>]
+        self.languages_spoken = [<span class="code-string">"Português"</span>, <span class="code-string">"Inglês"</span>]
         self.codewars = <span class="code-string">"https://www.codewars.com/users/MatheusFilipe"</span>`,
 
   json: `<span class="code-comment">// matheus_profile.json</span>
 {
   <span class="code-property">"developer"</span>: <span class="code-string">"Matheus Filipe"</span>,
   <span class="code-property">"level"</span>: <span class="code-string">"Júnior (em formação)"</span>,
-  <span class="code-property">"education"</span>: <span class="code-string">"Ciência da Computação @ UTFPR"</span>,
+  <span class="code-property">"education"</span>: <span class="code-string">"Ciência da Computação @ UFU"</span>,
   <span class="code-property">"primary_language"</span>: <span class="code-string">"Python"</span>,
-  <span class="code-property">"languages_spoken"</span>: [<span class="code-string">"Português"</span>, <span class="code-string">"Inglês Fluente"</span>],
+  <span class="code-property">"languages_spoken"</span>: [<span class="code-string">"Português"</span>, <span class="code-string">"Inglês"</span>],
   <span class="code-property">"codewars"</span>: <span class="code-string">"https://www.codewars.com/users/MatheusFilipe"</span>,
   <span class="code-property">"current_focus"</span>: [<span class="code-string">"SQL"</span>, <span class="code-string">"Python Moderno"</span>, <span class="code-string">"Arquitetura de Software"</span>, <span class="code-string">"Docker & CI/CD"</span>]
 }`
